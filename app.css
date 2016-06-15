@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+
+}
+.nav--bar {
+  background-color: #12b5ab;
+}
+.grid{
+  color: white;
+  margin: 0px 15px 0px;
+  padding: 10px;
+  float: left;
+}
+div {
+  overflow: auto;
+}
+
+ul {
+  float:right;
+  margin: 0px 15px 0px 0px;
+  padding: 10px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size-adjust: 10px;
+}
+a:hover{
+  color: #0dff00;
+}
+.image--01 {
+  display: inline-block;
+  margin:10px;
+  border: .5px solid black;
+}
+.image--02 {
+  display: inline-block;
+  margin:10px;
+  border: .5px solid black;
+}
+.image--03 {
+  display: inline-block;
+  margin:10px;
+  border: .5px solid black;
+}
+.tiles {
+      margin: auto;
+      width: 75%;
+      padding: 1px;
+}
