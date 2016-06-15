@@ -1,18 +1,23 @@
 * {
   box-sizing: border-box;
   overflow: auto;
-
+  max-width: 400rem;
+  margin: 0rem;
 }
+
 .nav--bar {
   background-color: #12b5ab;
-  margin-bottom: 25px;
+  margin-bottom: 1.5rem;
+
 }
+
 .grid{
   color: white;
   margin: 0px 15px 0px;
   padding: 10px;
   float: left;
 }
+
 div {
   overflow: auto;
 }
@@ -23,72 +28,87 @@ ul {
   padding: 10px 5px;
   color: white;
 }
+
 a {
   text-decoration: none;
   color: white;
   font-size-adjust: 10px;
   margin: 5px;
 }
+
 a:hover{
   color: #0dff00;
   font-size: 15px;
   font-family: monospace;
 }
+
 .image--01 {
   float:left;
   width: calc(100% / 3 - 20px);
-  margin:10px;
+  margin:.60rem;
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
--moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
-
-
+  -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.37);
+  min-width: 10rem;
 }
+
 .image--02 {
   float:left;
   width: calc(100% / 3 - 20px);
-  margin:10px;
+  margin:.60rem;
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
--moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
+  -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.37);
+  min-width: 10rem;
 }
+
 .image--03 {
   float:left;
   width: calc(100% / 3 - 20px);
-  margin:10px;
-
+  margin:.60rem;
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
--moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
+  -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.37);
+  min-width: 10rem;
+}
 
-}
 .tiles {
-      margin: auto;
+      margin: 0 auto;
       width: 50%;
-      padding: 1px;
+      padding: .5rem;
 }
+
 h3 {
   text-align: center;
+  font-family: Helvetica;
+  margin: .5rem 0rem;
 }
+
 hr {
   color: white;
-
+  width: 100% auto;
+  max-width: 160rem;
+  min-width: 1rem;
+  margin: auto;
 }
+
 p {
   text-align: left;
   padding: .2rem;
   margin: .5rem;
 }
+
 .cancel--but {
   background-color: red;
   color: white;
   float:left;
   padding: 5px:;
-  margin: 0px 0px 15px 20px;
+  margin: 0px 0px 15px 10px;
 }
+
 .submit--but {
   background-color: blue;
   color: white;
