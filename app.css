@@ -79,8 +79,8 @@ hr {
 }
 p {
   text-align: left;
-  padding: 3px;
-  margin: 1px;
+  padding: .2rem;
+  margin: .5rem;
 }
 .cancel--but {
   background-color: red;
