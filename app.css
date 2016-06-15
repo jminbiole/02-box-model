@@ -31,9 +31,12 @@ a {
 }
 a:hover{
   color: #0dff00;
+  font-size: 15px;
+  font-family: monospace;
 }
 .image--01 {
-  display: inline-block;
+  float:left;
+  width: calc(100% / 3 - 20px);
   margin:10px;
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
@@ -43,7 +46,8 @@ box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
 
 }
 .image--02 {
-  display: inline-block;
+  float:left;
+  width: calc(100% / 3 - 20px);
   margin:10px;
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
@@ -51,8 +55,10 @@ box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
 box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
 }
 .image--03 {
-  display: inline-block;
+  float:left;
+  width: calc(100% / 3 - 20px);
   margin:10px;
+
   border: 1px solid gray;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
 -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
@@ -61,11 +67,8 @@ box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.37);
 }
 .tiles {
       margin: auto;
-      width: 75%;
+      width: 50%;
       padding: 1px;
-      display: block;
-      align: center;
-
 }
 h3 {
   text-align: center;
