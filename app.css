@@ -16,6 +16,7 @@
   margin: 0px 15px 0px;
   padding: 10px;
   float: left;
+  change
 }
 
 div {
@@ -76,15 +77,15 @@ a:hover{
 }
 
 .tiles {
-      margin: 0 auto;
-      width: 50%;
-      padding: .5rem;
+       margin: 0 auto;
+       width: 50%;
+       padding: .5rem;
 }
 
 h3 {
-  text-align: center;
-  font-family: Helvetica;
-  margin: .5rem 0rem;
+  text -align: center;
+  font -family: Helvetica;
+  marg in: .5rem 0rem;
 }
 
 hr {
